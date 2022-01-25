@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa Rise Photographer</title>
+    <link rel="stylesheet" href="./RESET.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <div class="header-bg">
+            <header>
+                <svg class="icon logo-icon"><use xlink:href="./assets/svg/sprite.svg#logo"></use></svg>
+                <div class="links-container">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#video">Video</a></li>
+                            <li><a href="#price">Price</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <div class="languages"><span class="gold">en</span> / <span>ru</span></div>
+                    <div class="burger-menu">
+                        <div class="burger-basis"></div>
+                    </div>
+                </div>
+            </header>
+            <section class="section hero">
+                <div class="hero-content">
+                    <h1>Alexa Rise</h1>
+                    <p>
+                        Save sincere emotions, romantic feelings and
+                        happy moments of life together with professional
+                        photographer Alexa Rise
+                    </p>
+                    <button>Hire me</button>
+                </div>
+            </section>
+        </div>
+        <main>  
+            <section class="section skills" id="skills">
+                <div class="skills-content">
+                    <h2  class="lines">Skills</h2>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="item-image"><img src="./assets/svg/skills/camera.svg" alt="camera"></div>
+                            <div class="item-header">Digital photography</div>
+                            <div class="item-text">High-quality photos in the studio and on the nature</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="item-image"><img src="./assets/svg/skills/video.svg" alt="video"></div>
+                            <div class="item-header">Video shooting</div>
+                            <div class="item-text">Capture your moments so that they always stay with you</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="item-image"><img src="./assets/svg/skills/image.svg" alt="image"></div>
+                            <div class="item-header">Retouch</div>
+                            <div class="item-text">I strive to make photography surpass reality</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="item-image"><img src="./assets/svg/skills/mic.svg" alt="mic"></div>
+                            <div class="item-header">Audio</div>
+                            <div class="item-text">Professional sounds recording for video, advertising, portfolio</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section portfolio" id="portfolio">
+                <h2 class="lines">Portfolio</h2>
+                <div class="seasons-container">
+                    <button class="season" data-season="winter">Winter</button>
+                    <button class="season" data-season="spring">Spring</button>
+                    <button class="season" data-season="summer">Summer</button>
+                    <button class="season active" data-season="autumn">Autumn</button>
+                </div>
+                <div class="photo-gallery">
+                    <div class="photo first"></div>
+                    <div class="photo second"></div>
+                    <div class="photo third"></div>
+                    <div class="photo fourth"></div>
+                    <div class="photo fifth"></div>
+                    <div class="photo sixth"></div>
+                </div>
+            </section>
+            <section class="section video" id="video">
+                <h2 class="lines">Video</h2>
+                <div class="video-container">
+                    <button><svg class="icon video-icon"><use xlink:href="./assets/svg/sprite.svg#player"></use></svg></button>
+                </div>
+            </section>
+            <section class="section price" id="price">
+                <h2 class="lines">Price</h2>
+                <div class="price-container">
+                    <div class="price-card">
+                        <h3>Standard</h3>
+                        <div class="price-amount">500 $</div>
+                        <div class="features">
+                            <p>One location</p>
+                            <p>120 photos in color</p>
+                            <p>12 photos in retouch</p>
+                            <p>Readiness 2-3 weeks</p>
+                            <p>Make up, visage</p>
+                        </div>
+                        <button>Order shooting</button>
+                    </div>
+                    <div class="price-card">
+                        <h3>Premium</h3>
+                        <div class="price-amount">700 $</div>
+                        <div class="features">
+                            <p>One or two locations</p>
+                            <p>200 photos in color</p>
+                            <p>20 photos in retouch</p>
+                            <p>Readiness 1-2 weeks</p>
+                            <p>Make up, visage</p>
+                        </div>
+                        <button>Order shooting</button>
+                    </div>
+                    <div class="price-card">
+                        <h3>Gold</h3>
+                        <div class="price-amount">1000 $</div>
+                        <div class="features">
+                            <p>Three locations or more</p>
+                            <p>300 photos in color</p>
+                            <p>50 photos in retouch</p>
+                            <p>Readiness 1 week</p>
+                            <p>Make up, visage, hairstyle</p>
+                        </div>
+                        <button>Order shooting</button>
+                    </div>
+                </div>
+            </section>
+            <div class="contacts-bg">
+                <section class="section contacts" id="contacts">
+                    <h2 id="contacts-header">Contact me</h2>
+                    <form action="#">
+                        <input type="email" name="e-mail" placeholder="E-mail">
+                        <input type="tel" name="phone" placeholder="Phone">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button id="send">Send message</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="credits">
+                <div>&copy;</div>
+                <div>2022</div>
+                <div><a href="https://github.com/nikolakozaryan" target="_blank">github</a></div>
+            </div>
+            <div class="school"><a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a></div>
+            <ul class="social">
+                <li><a href="#"><svg class="icon"><use xlink:href="./assets/svg/sprite.svg#instagram"></use></svg></a></li>
+                <li><a href="#"><svg class="icon"><use xlink:href="./assets/svg/sprite.svg#faceebook"></use></svg></a></li>
+                <li><a href="#"><svg class="icon"><use xlink:href="./assets/svg/sprite.svg#twitter"></use></svg></a></li>
+                <li><a href="#"><svg class="icon"><use xlink:href="./assets/svg/sprite.svg#pinterest"></use></svg></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
